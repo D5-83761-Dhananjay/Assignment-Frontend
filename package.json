@@ -1,0 +1,31 @@
+{
+  "name": "assignment-frontend",
+  "version": "1.0.0",
+  "description": "This is a assignment for trainees",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D5-83761-Dhananjay/Assignment-Frontend.git"
+  },
+  "author": "Dhananjay Nagargoje",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D5-83761-Dhananjay/Assignment-Frontend/issues"
+  },
+  "homepage": "https://github.com/D5-83761-Dhananjay/Assignment-Frontend#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.7.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.2.0"
+  }
+}
