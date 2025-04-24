@@ -1,8 +1,10 @@
 const Footer = () => {
   return (
-    <div className="border-l-indigo-500">
-      <h1>this is Footer</h1>
-    </div>
+    <footer className="bg-gray-800 text-white py-6">
+      <div className="container mx-auto text-center">
+        <p>{new Date().getFullYear()}</p>
+      </div>
+    </footer>
   );
 };
 
